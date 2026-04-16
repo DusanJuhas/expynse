@@ -1,0 +1,25 @@
+I want you to create a new, well-structured Python application. 
+Let's name it expynse.
+Let's do it in a Windows environment and create a desktop application.
+
+Ask me if something is unclear or ambiguous.
+
+The main purpose of the application is to track my expenditures.
+I want you to create it.
+It should support the following features:
+1. monthly bank account statement load
+ - PDF format 
+ - header with account number, account name, IBAN, BIC
+ - rows with 
+	- Transaction Start Date, 
+	- Transaction End Date, 
+	- Transaction Code, 
+	- Transaction Category 
+	- Counter Account Number
+	- Counter Account Name
+	- Transaction Type
+	- etc.
+2. store loaded data in a local SQLite database
+3. View statements and payment data in the application UI
+4. Fulltext search
+5. Creation of user category and see monthly/yearly expenditure in these categories
